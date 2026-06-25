@@ -112,14 +112,16 @@ The dataset contains 101 food categories with thousands of food images used for 
 Displays training and validation performance across epochs.
 
 **Output File:**
-- accuracy_loss_graph.png
+- ![Accuracy and Loss Graph](accuracy_loss_graph.png)
 
 ### 🍽️ Food Prediction Result
 
 The model predicts the food category from a test image and displays confidence scores.
 
 **Output File:**
-- food_prediction_result.png
+-
+![Food Prediction Result](food_prediction_result.png)
+
 
 ### 🔥 Calorie Estimation
 
