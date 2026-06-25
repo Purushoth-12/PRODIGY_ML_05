@@ -155,12 +155,15 @@ Examples:
 
 ## 📁 Generated Files
 
+📓 food_recognition.ipynb
+
 📊 accuracy_loss_graph.png
 
 📈 food_prediction_result.png
 
 💾 food_classifier.h5
 
+📄 README.md
 ---
 
 ## 🌟 Future Enhancements
