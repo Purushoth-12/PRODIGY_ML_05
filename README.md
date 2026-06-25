@@ -1,16 +1,14 @@
-🍔 FOOD RECOGNITION & CALORIE ESTIMATION USING DEEP LEARNING
+# 🍔 Food Recognition & Calorie Estimation using Deep Learning
 
-====================================================
-📌 PROJECT OVERVIEW
-====================================================
+## 📌 Project Overview
 
 This project implements a Food Recognition and Calorie Estimation System using Transfer Learning with MobileNetV2. The model identifies food items from images and provides an estimated calorie value for the predicted food category.
 
 The objective is to assist users in understanding their dietary intake and promote healthier food choices through AI-powered image classification.
 
-====================================================
-🎯 PROJECT OBJECTIVES
-====================================================
+---
+
+## 🎯 Project Objectives
 
 ✅ Recognize food items from images
 
@@ -22,37 +20,42 @@ The objective is to assist users in understanding their dietary intake and promo
 
 ✅ Generate prediction confidence analysis
 
-====================================================
-🧠 TECHNOLOGIES USED
-====================================================
+---
+
+## 🧠 Technologies Used
 
 • Python
+
 • TensorFlow
+
 • Keras
+
 • MobileNetV2
+
 • NumPy
+
 • Matplotlib
 
-====================================================
-📂 DATASET
-====================================================
+---
 
-Dataset Name : Food-101
+## 📂 Dataset
+
+**Dataset:** Food-101
 
 The dataset contains 101 food categories with thousands of food images used for training and evaluation.
 
-====================================================
-⚙️ MODEL ARCHITECTURE
-====================================================
+---
+
+## ⚙️ Model Architecture
 
 📸 Input Image (128 × 128 × 3)
 
 ⬇️
 
 🔄 Data Augmentation
-   • Random Flip
-   • Random Rotation
-   • Random Zoom
+- Random Flip
+- Random Rotation
+- Random Zoom
 
 ⬇️
 
@@ -74,9 +77,9 @@ The dataset contains 101 food categories with thousands of food images used for 
 
 🔥 Calorie Estimation
 
-====================================================
-🚀 KEY FEATURES
-====================================================
+---
+
+## 🚀 Key Features
 
 ✨ Automated Food Recognition
 
@@ -90,57 +93,49 @@ The dataset contains 101 food categories with thousands of food images used for 
 
 ✨ Prediction Confidence Analysis
 
-====================================================
-📈 TRAINING CONFIGURATION
-====================================================
+---
 
-Image Size      : 128 × 128
+## 📈 Training Configuration
 
-Batch Size      : 32
+- Image Size: 128 × 128
+- Batch Size: 32
+- Epochs: 5
+- Optimizer: Adam
+- Loss Function: Sparse Categorical Crossentropy
 
-Epochs          : 5
+---
 
-Optimizer       : Adam
+## 📊 Output Results
 
-Loss Function   : Sparse Categorical Crossentropy
-
-====================================================
-📊 OUTPUT RESULTS
-====================================================
-
-1️⃣ Accuracy & Loss Graph
+### 📈 Accuracy & Loss Graph
 
 Displays training and validation performance across epochs.
 
-Output File:
-accuracy_loss_graph.png
+**Output File:**
+- accuracy_loss_graph.png
 
+### 🍽️ Food Prediction Result
 
-2️⃣ Food Prediction Result
+The model predicts the food category from a test image and displays confidence scores.
 
-The model predicts the food category from a test image and displays prediction confidence.
+**Output File:**
+- food_prediction_result.png
 
-Output File:
-food_prediction_result.png
-
-
-3️⃣ Calorie Estimation
-
-Estimated calorie values for predicted foods.
+### 🔥 Calorie Estimation
 
 Examples:
 
-🍕 Pizza            → 285 Calories
+🍕 Pizza → 285 Calories
 
-🍔 Hamburger        → 295 Calories
+🍔 Hamburger → 295 Calories
 
-🍨 Ice Cream        → 207 Calories
+🍨 Ice Cream → 207 Calories
 
-🍩 Donuts           → 452 Calories
+🍩 Donuts → 452 Calories
 
-====================================================
-🏆 LEARNING OUTCOMES
-====================================================
+---
+
+## 🏆 Learning Outcomes
 
 🔹 Deep Learning
 
@@ -152,13 +147,13 @@ Examples:
 
 🔹 Image Classification
 
-🔹 Model Evaluation
+🔹 Model Evaluation & Visualization
 
 🔹 AI-Based Food Analytics
 
-====================================================
-📁 GENERATED FILES
-====================================================
+---
+
+## 📁 Generated Files
 
 📊 accuracy_loss_graph.png
 
@@ -166,13 +161,13 @@ Examples:
 
 💾 food_classifier.h5
 
-====================================================
-🌟 FUTURE ENHANCEMENTS
-====================================================
+---
+
+## 🌟 Future Enhancements
 
 🚀 Improve prediction accuracy through fine-tuning
 
-🚀 Expand calorie database for all 101 food categories
+🚀 Expand calorie database for all food categories
 
 🚀 Develop a Streamlit Web Application
 
@@ -180,10 +175,14 @@ Examples:
 
 🚀 Nutritional Analysis Dashboard
 
-====================================================
-🙏 ACKNOWLEDGEMENT
-====================================================
+---
 
-This project was completed as part of my Machine Learning Internship at Prodigy InfoTech. The task provided practical exposure to Deep Learning, Computer Vision, Transfer Learning, and AI-powered Food Recognition systems.
+## 🙏 Acknowledgement
 
-I am grateful to Prodigy InfoTech for providing this opportunity to enhance my technical and problem-solving skills through hands-on projects.
+This project was completed as part of my Machine Learning Internship at Prodigy InfoTech.
+
+I am grateful to Prodigy InfoTech for providing this opportunity to gain hands-on experience in Deep Learning, Computer Vision, Transfer Learning, and AI-powered Food Recognition systems.
+
+---
+
+⭐ If you found this project interesting, consider giving it a star on GitHub!
